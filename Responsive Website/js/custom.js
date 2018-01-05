@@ -122,5 +122,18 @@ $(document).ready(function(){
     maxSlides:3,
     slideMargin:50
   });
+});
 
+//Add counter
+$(document).ready(function(){
+  $('.counter-num').counterUp({
+    delay:10,
+    time:2000
+  });
+});
+
+//Add animation/ Initialize wow
+$(document).ready(function(){
+  'use strict';
+  new WOW().init();
 });
