@@ -9,10 +9,21 @@
     .about-iphone img {
         width: 100%;
     }
+    .logo {
+      padding-top: 0px;
+    }
     .purchase-now, .col-md-3 {
-
         text-align: center;
         padding-top: 50px;
+    }
+    .header-btns {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .header-text h1 {
+
+      padding-top: 20px;
+
     }
  .header-phone {
         display: none;
